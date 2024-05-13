@@ -1,16 +1,25 @@
 body {
+    background: linear-gradient(rgba(185, 32, 2, 0.953), rgba(204, 170, 46, 0.849));
     font-family: Arial, sans-serif;
     text-align: center;
     margin-top: 50px;
+    height: 100vh;
   }
   
   .container {
-    max-width: 400px;
+    max-width: 350px;
+    height: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 5px;
+    color: rgba(237, 237, 237, 0.873);
+    background-color: #ffffff29;
+    border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .container:hover{
+    box-shadow: 0 0 15px rgba(248, 246, 246, 0.447);
+    transition: 1.2s ease-in-out;
   }
   
   h1 {
@@ -27,7 +36,7 @@ body {
     margin-top: 10px;
     padding: 8px 16px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #4c60af;
     color: white;
     border: none;
     border-radius: 4px;
@@ -35,7 +44,7 @@ body {
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #450fd9;
   }
   
   #result-message {
